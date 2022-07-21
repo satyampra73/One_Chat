@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "371824495277",
+    "project_id": "lets-chat-305d1",
+    "storage_bucket": "lets-chat-305d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371824495277:android:d10c59b9f7b3f8a7e1d424",
+        "android_client_info": {
+          "package_name": "com.satyam.onechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371824495277-8d0lq9kn8gmqhsjnp0b50e9qm1u14n84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.satyam.onechat",
+            "certificate_hash": "8c8b63f6f43173dc8673fd5e33effe887dbe3f59"
+          }
+        },
+        {
+          "client_id": "371824495277-gf83tlnf2a873mvrq2pgnhfj7tsgv76m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANpQ8kYyJt059n_0tHbnU5Wylkdu9GZL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371824495277-gf83tlnf2a873mvrq2pgnhfj7tsgv76m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
