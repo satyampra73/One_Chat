@@ -10,14 +10,12 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -26,9 +24,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.satyam.onechat.Fragment.ChatsFragment;
-import com.satyam.onechat.Fragment.ProfileFragment;
-import com.satyam.onechat.Fragment.UsersFragment;
+import com.satyam.onechat.Fragments.ChatsFragment;
+import com.satyam.onechat.Fragments.ProfileFragment;
+import com.satyam.onechat.Fragments.UsersFragment;
 import com.satyam.onechat.Model.Users;
 
 import java.util.ArrayList;
@@ -63,9 +61,9 @@ public class MainActivity extends AppCompatActivity {
 
         imgLogOut.setOnClickListener(view -> {
             Toast.makeText(this, "User Log Out Successfully", Toast.LENGTH_SHORT).show();
-            mAuth.signOut();
-            Intent intent =new Intent(MainActivity.this,LoginActivity.class);
+            Intent intent =new Intent(MainActivity.this,StartActivity.class);
             startActivity(intent);
+            mAuth.signOut();
             finish();
         });
 
@@ -93,13 +91,13 @@ public class MainActivity extends AppCompatActivity {
 
                 username.setText(users.getUsername()); // set the text of the user on textivew in toolbar
 
-//                if (users.getImageURL().equals("default")) {
-//
-//                    imageView.setImageResource(R.drawable.user);
-//                } else {
-//
-//                    Glide.with(getApplicationContext()).load(users.getImageURL()).into(imageView);
-//                }
+                if (users.getImageURL().equals("default")) {
+
+                    imageView.setImageResource(R.drawable.user);
+                } else {
+
+                    Glide.with(getApplicationContext()).load(users.getImageURL()).into(imageView);
+                }
 
             }
 
@@ -140,10 +138,7 @@ public class MainActivity extends AppCompatActivity {
             fragments.add(fragment);
             titles.add(title);
 
-
-
         }
-
 
         @Nullable
         @Override
@@ -152,10 +147,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
-
-
-
+    
     private void Status (final String status) {
 
 
@@ -165,7 +157,6 @@ public class MainActivity extends AppCompatActivity {
         hashMap.put("status", status);
 
         reference.updateChildren(hashMap);
-
 
 
     }

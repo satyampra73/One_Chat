@@ -7,13 +7,15 @@
         <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/drawable/arrow_back.xml" value="0.1135" />
         <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/drawable/background_left.xml" value="0.1135" />
         <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/drawable/background_right.xml" value="0.1135" />
+        <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/drawable/et_text.xml" value="0.122" />
         <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1135" />
         <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/drawable/logout.xml" value="0.1135" />
-        <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/layout/activity_login.xml" value="0.22" />
-        <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/layout/activity_message.xml" value="0.20416666666666666" />
         <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
         <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/layout/activity_start.xml" value="0.20416666666666666" />
+        <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/layout/activity_test.xml" value="0.17657657657657658" />
         <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/layout/barlayout.xml" value="0.18" />
         <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/layout/chat_item_left.xml" value="0.1675929884566054" />
         <entry key="..\:/Satyam/Chat System/OneChat/app/src/main/res/layout/chat_item_right.xml" value="0.2" />

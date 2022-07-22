@@ -29,8 +29,7 @@
                     android:id="@+id/profile_image"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@mipmap/ic_launcher_round" />
-
+                    />
 
                 <TextView
                     android:id="@+id/usernameonmainactivity"
@@ -39,7 +38,6 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_toEndOf="@id/profile_image"
-                    android:text="text"
                     android:textColor="@android:color/white"
                     android:textStyle="bold" />
 
